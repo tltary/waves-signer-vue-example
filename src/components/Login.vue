@@ -29,7 +29,7 @@ export default {
                         this.address = response.address;
                     },
                     (error) => {
-                        alert('Some error')
+                        console.error(error)
                     })
         }
     }
