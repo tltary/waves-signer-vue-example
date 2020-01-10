@@ -1,4 +1,8 @@
-# test-waves-signed
+# Waves signer Vue.js example
+
+This example is for use with a test network.
+
+If you want to work with mainnet, go to /src/main.js, comment out the lines for the test network and uncomment for the mainnet
 
 ## Project setup
 ```
@@ -13,7 +17,4 @@ npm run serve
 ### Compiles and minifies for production
 ```
 npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+```# waves-signer-vue-example
