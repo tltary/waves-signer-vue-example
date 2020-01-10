@@ -7,7 +7,13 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "@waves.exchange/provider-web": "0.0.3",
+    "@waves/provider-seed": "^0.1.1",
+    "@waves/signer": "0.0.4",
+    "@waves/waves-transactions": "^4.0.0-beta.4",
     "core-js": "^3.4.3",
+    "node-sass": "^4.13.0",
+    "sass-loader": "^8.0.0",
     "vue": "^2.6.10"
   },
   "devDependencies": {

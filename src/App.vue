@@ -1,28 +1,56 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <Login />
+    <Invoke />
+    <Data />
+    <Transfer />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
+import Login from './components/Login.vue';
+import Invoke from './components/Invoke.vue';
+import Data from './components/Data.vue';
+import Transfer from './components/Transfer.vue';
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
-  }
+    Login,
+    Invoke,
+    Data,
+    Transfer
+  },
 }
 </script>
 
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style lang="scss">
+  body {
+    padding: 50px;
+    margin: 0px;
+    text-align: center;
+  }
+  .test {
+    &__row {
+      margin-bottom: 15px;
+      &:last-child {
+        margin-bottom: 0px;
+      }
+    }
+    &__button {
+      padding: 10px 30px;
+      font-size: 14px;
+      border: 1px #3e3e3e solid;
+      outline: none;
+      color: #3e3e3e;
+      width: 250px;
+      transition: color .3s ease-in-out, background-color .3s ease-in-out;
+      cursor: pointer;
+      &:hover {
+        background-color: #3e3e3e;
+        color: #fff;
+      }
+    }
+  }
 </style>
