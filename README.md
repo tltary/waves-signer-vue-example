@@ -1,6 +1,6 @@
 # Waves signer Vue.js example
 
-[Demo](https://tltary.githib.io/waves-signer-vue-example-demo)
+[Demo](https://tltary.github.io/waves-signer-vue-example-demo)
 
 This example is for use with a test network.
 
