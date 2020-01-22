@@ -1,9 +1,9 @@
 import Vue from 'vue'
 import App from './App.vue'
-import VueSigner from 'vue-waves-signer'
+import VueSigner from '@opensolutions/vue-waves-signer'
 
 Vue.use(VueSigner, {
-  debug: true
+  debug: true,
 })
 
 Vue.config.productionTip = false
