@@ -7,7 +7,7 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
-    "@opensolutions/vue-waves-signer": "^0.3.0",
+    "@opensolutions/vue-waves-signer": "^0.4.2",
     "core-js": "^3.6.4",
     "node-sass": "^4.13.1",
     "sass-loader": "^8.0.2",
